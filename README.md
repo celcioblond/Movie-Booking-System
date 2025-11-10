@@ -52,7 +52,7 @@ Password: admin
 - [Samir Hossain](https://github.com/SamirHossain099)
 - [Nicholas Rethans](https://github.com/nrethans)
 - Matthew Nunez
-- Mateo Blondet
+- [Mateo Blondet](https://github.com/celcioblond)
 - Rocco Swaney
 
 ### Key Features
