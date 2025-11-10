@@ -1,2 +1,13 @@
-# Ignore all .pyc files
+# Python
+venv/
+myenv/
+__pycache__/
 *.pyc
+
+# Django
+db.sqlite3
+*.sqlite3
+.env
+
+# Node (if you have a frontend)
+node_modules/
