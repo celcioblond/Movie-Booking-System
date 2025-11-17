@@ -13,7 +13,8 @@ Please have [Node.js](https://nodejs.org/en) and [Python](https://python.org/) i
 ## Installation
   1. First create a virtual environment for python libraries.
 ```
-virtualenv myenv
+python -m venv myenv
+
 ```
   2. Activate the virtual environment
 ```
@@ -22,24 +23,27 @@ myenv\Scripts\activate
   4. Install the following python libraries from Django
 ```
 pip install django djangorestframework django-cors-headers
+
+  5. Install the following python libraries from Django
 ```
-  5. (OPTIONAL) Install Node.js if not installed on your PC/LAPTOP.
+python -m pip install Pillow
+
   6. Enter the frontend directory and run the following command.
 ```
 npm install 
 ```
 (This should automatically install the required libraries.)
-  8. Enter the backend directory and run the following command to start the backend server.
+  6. Enter the backend directory and run the following command to start the backend server.
 ```
 python manage.py migrate
 python manage.py runserver
 ```
-  9. Enter the frontend directory and run the following command to start the frontend server.
+  7. Enter the frontend directory and run the following command to start the frontend server.
 ```
 npm run start
 ```
 
-  10. (OPTIONAL) If you want to login into the admin system, use the following URL and credentials:
+  8. (OPTIONAL) If you want to login into the admin system, use the following URL and credentials:
 ```
 http://127.0.0.1:8000/admin/
 
@@ -52,7 +56,7 @@ Password: admin
 - [Samir Hossain](https://github.com/SamirHossain099)
 - [Nicholas Rethans](https://github.com/nrethans)
 - Matthew Nunez
-- Mateo Blondet
+- [Mateo Blondet](https://github.com/celcioblond)
 - Rocco Swaney
 
 ### Key Features
